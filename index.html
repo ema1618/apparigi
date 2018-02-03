@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+
+header 
+{
+	background: white url('./paris.jpg');
+	color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	font-size:300%;
+}
+
+.container {
+	background-color: #f1f1f1;
+	padding: 20px 20px 60px 20px;
+	align-items:center;
+	text-align:center;
+}
+
+/* Style all input fields */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+</style>
+</head>
+
+
+
+
+<body>
+<header>
+<h1>apParigi</h1>
+</header>
+
+
+
+<div class="container">
+<br /> <br /> <br />
+<form action="./validation.php" method="post">
+Username: <input type="text" name="user"><br><br>
+Password: <input type="password" name="password"> <br><br>
+<input type="submit" value="Submit">
+</form>
+</div>
+
+
+
+</body>
+</html>
+
